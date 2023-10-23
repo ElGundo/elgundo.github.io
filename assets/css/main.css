@@ -77,26 +77,3 @@ footer {
 	border-radius: 0 0 10px 10px;
   }
   
-  /* Media queries for responsiveness */
-  @media screen and (max-width: 600px) {
-	h1 {
-	  font-size: 20px;
-	}
-  
-	p {
-	  font-size: 14px;
-	}
-  
-	input[type="number"] {
-	  width: 50%;
-	}
-  
-	h2 {
-	  font-size: 16px;
-	}
-  
-	footer {
-	  font-size: 14px;
-	}
-  }
-  
