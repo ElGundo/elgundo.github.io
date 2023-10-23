@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Gundi-Pace</title>
+		
+		<meta charset="utf-8" />
+		<meta name="description" content="Gundi-Pace">
+        <meta name="keywords" content="Pace, Running, Calculate, Gundi">
+        <meta name="author" content="Julian Gundi">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+	</head>
+
+	
+	<body>
+		<header>
+			<h1>Gundi-Pace</h1>
+			<p>Der Pace Rechner von Julian Gundi. Rechnen Sie ihre Pace aus oder Ihre Geschwindigkeit in km/h.</br>Ich habe diese Seite und den Rechner für Läufer erstellt, um die Pace einfacher vor dem Training oder Wettkampf berechnen zu können.</p>
+		</header>
+		<aside></aside>
+		<article>
+			<form action="#" method="post">	
+				<label>Distanz</label>
+				<input type="number" name="km" placeholder="km"/>
+				<br>
+				<label>Stunden</label>
+				<input type="number" name="h" placeholder="h"/>
+				<br>
+				<label>Minuten</label>
+				<input type="number" name="min" placeholder="min"/>
+				<br>
+				<label>Sekunden</label>
+				<input type="number" name="sek" placeholder="sek"/>
+				<br>
+				<h2>Pace</h2>
+				
+				<label>Minuten pro KM</label>
+				<input type="number" name="minuten" placeholder="min/km"/>
+				<br>
+				<label>Sekunden pro KM</label>
+				<input type="number" name="sekunden" placeholder="sek/km">
+				<br>
+				
+				<label>km/h</label>
+				<input type="number" name="kmh" placeholder="km/h" disabled>
+				<br>
+				<input type="button" onclick="GundiPace(this.form)" value="Pace berechnen"/>
+				<input type="button" onclick="GundiPaceTabelle(this.form);" value="Pacetabelle"/>
+				<input type="reset" value="Reset">
+			</form>
+		<h2>Pacetabelle</h2>
+		<ul id="list"></ul>										
+		</article>
+
+		<script src="assets/js/pace.js"></script>
+		<script src="assets/js/pacetabelle.js"></script>
+		
+		<footer>
+			<p>&copy; Julian Gundi</p>
+		</footer>
+	</body>
+
+	
+</html>
