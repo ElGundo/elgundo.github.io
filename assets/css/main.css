@@ -69,6 +69,17 @@ h2 {
 ul {
 	list-style: none;
   }
+		
+li {
+	width: 100%;
+	font-size: 16px;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #e8f2fa;
+	background-color: #e8f2fa;
+	border-radius: 4px;
+	text-align: center;
+  }
   
 footer {
 	padding: 10px;
